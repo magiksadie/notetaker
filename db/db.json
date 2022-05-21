@@ -1,6 +1,163 @@
 [
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
+  {
+    "title": "Test Title",
+    "text": "Test text",
+    "id": [
+      0
+    ]
+  },
+  {
+    "title": "Test",
+    "text": "Please work!\n",
+    "id": [
+      1
+    ]
+  },
+  {
+    "title": "Hello!",
+    "text": "Test?\n",
+    "id": [
+      2
+    ]
+  },
+  {
+    "title": "Test",
+    "text": "/this one should work/",
+    "id": [
+      3
+    ]
+  },
+  {
+    "title": "Test",
+    "text": "Did I do it yet?",
+    "id": [
+      4
+    ]
+  },
+  {
+    "title": "Hello!",
+    "text": "Will you write file now?",
+    "id": [
+      5
+    ]
+  },
+  {
+    "title": "okay..",
+    "text": "what if I try removing index.js?",
+    "id": [
+      6
+    ]
+  },
+  {
+    "title": "Help",
+    "text": "Not sure if I changed anything tbh",
+    "id": [
+      7
+    ]
+  },
+  {
+    "title": "EEEk",
+    "text": "why",
+    "id": [
+      8
+    ]
+  },
+  {
+    "title": "newNote.id",
+    "text": "Test?",
+    "id": [
+      9
+    ]
+  },
+  {
+    "title": "added :id?",
+    "text": "is this it?",
+    "id": [
+      10
+    ]
+  },
+  {
+    "title": "simplified",
+    "text": "router.get('notes')",
+    "id": [
+      11
+    ]
+  },
+  {
+    "title": "Worth",
+    "text": "a shot",
+    "id": [
+      12
+    ]
+  },
+  {
+    "title": "Please",
+    "text": "Whyyyy what's wrong",
+    "id": [
+      13
+    ]
+  },
+  {
+    "title": "Test",
+    "text": "This is a test!\n",
+    "id": [
+      14
+    ]
+  },
+  {
+    "title": "Test",
+    "text": "Returned Notes",
+    "id": [
+      15
+    ]
+  },
+  {
+    "title": "Console Log",
+    "text": ".",
+    "id": [
+      16
+    ]
+  },
+  {
+    "title": "Test",
+    "text": "!",
+    "id": [
+      17
+    ]
+  },
+  {
+    "title": "Test",
+    "text": "Moved API routes",
+    "id": [
+      18
+    ]
+  },
+  {
+    "title": "Test",
+    "text": "New Note!",
+    "id": [
+      19
+    ]
+  },
+  {
+    "title": "Test",
+    "text": "2",
+    "id": [
+      20
+    ]
+  },
+  {
+    "title": "New one",
+    "text": "!",
+    "id": [
+      21
+    ]
+  },
+  {
+    "title": "New Note",
+    "text": "Hello",
+    "id": [
+      22
+    ]
+  }
 ]
