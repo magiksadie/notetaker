@@ -6,7 +6,6 @@ const path = require('path');
 
 const newTask = [];
 
-//API Routes
 router.get('/notes', (req, res) => {
     const returnedNotes = fs.readFileSync(path.join(__dirname, '../../db/db.json'), 'utf8');
     console.log(returnedNotes);
@@ -37,13 +36,6 @@ router.post('/notes', (req, res) => {
     });
 });
 
-router.get('/notes/:id', (req, res) => {
-    const { id } = req.params;
-    const note = notes.find(note => note.id === parseInt(id));
-    if (!note) return res.status(404).send('Note not found');
-    res.json(note);
-});
-
 router.delete('/notes/:id', (req, res) => {
     let currentNote = notes;
     let filteredNote = currentNote.filter(note => note.id != req.params.id);
@@ -51,6 +43,13 @@ router.delete('/notes/:id', (req, res) => {
 
     res.json(filteredNote);
     notes = filteredNote;
+});
+
+router.get('/notes/:id', (req, res) => {
+    const { id } = req.params;
+    const note = notes.find(note => note.id === parseInt(id));
+    if (!note) return res.status(404).send('Note not found');
+    res.json(note);
 });
 
 module.exports = router;
