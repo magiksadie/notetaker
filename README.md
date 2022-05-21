@@ -15,7 +15,7 @@ No need to pull code! Simply click the heroku link. However, if you really feel 
 
 ## Link
 ![Image](./public/assets/images/screenshot.png)
-https://git.heroku.com/stormy-sierra-55371.git
+https://stormy-sierra-55371.herokuapp.com/
 
 ## License 
 
